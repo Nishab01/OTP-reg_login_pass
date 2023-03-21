@@ -1,0 +1,72 @@
+#reg{
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px black;
+}
+#reg .left{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#reg img{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+#reg .right{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#reg .right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#reg .right form input{
+    margin: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 8px 5px 8px;
+    width: 280px;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+#reg form input[type="submit"]{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+#reg form input[type="submit"]:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+#a_signup{
+    display: none;
+    visibility: hidden;
+}
+#a_logout{
+    display: none;
+    visibility: hidden;
+}
+#a_profile{
+    display: none;
+    visibility: hidden;
+}

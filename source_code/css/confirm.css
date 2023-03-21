@@ -1,0 +1,48 @@
+#otpPart{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#otpPart p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+#otpPart form input{
+    margin-top: 5px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 28px;
+    width: 100px;
+    border: 1px solid gray;
+}
+#otpPart form input[type="submit"]{
+    font-size: 14px;
+    height: 28px;
+    width: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+}
+
+#a_login{
+    display: none;
+    visibility: hidden;
+}
+#a_signup{
+    display: none;
+    visibility: hidden;
+}
+#a_logout{
+    display: none;
+    visibility: hidden;
+}
+#a_profile{
+    display: none;
+    visibility: hidden;
+}
