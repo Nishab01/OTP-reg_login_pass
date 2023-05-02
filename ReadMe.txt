@@ -1,5 +1,5 @@
 Import Databse:
-	1. Create a dtabase named 'user_db'.
+	1. Create a database named 'user_db'.
 	2. Click the database, then click the 'Import' button in the top of the scrren.
 	3. Choose the file names 'user_db.sql.gz'. The file will be found inside the folder named 'db'.
 	4. Scroll down and click 'import'. 
